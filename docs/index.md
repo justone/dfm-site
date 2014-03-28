@@ -8,7 +8,7 @@ dfm is a small utility that manages dotfiles.  It:
 
 # Quick start
 
-First, fork [[this repo|http://github.com/justone/dotfiles]].
+First, fork [this repo](http://github.com/justone/dotfiles).
 
 Then, add your dotfiles:
 
