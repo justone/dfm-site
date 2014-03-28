@@ -1,0 +1,3 @@
+image: nate/mkdocs
+script:
+  - mkdocs build
