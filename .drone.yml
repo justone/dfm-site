@@ -2,3 +2,6 @@ image: nate/mkdocsgit
 script:
   - mkdocs build
   - ls site
+deploy:
+  bash:
+    command: ./deploy.sh
