@@ -13,7 +13,7 @@ index aee9939..1bfb368 100644
 --- a/.vimrc
 +++ b/.vimrc
 @@ -3,6 +3,7 @@ set ai to shell=/bin/bash terse nowarn sm ruler redraw sw=4 ts=4
- "set noremap
+ set noremap
  set hls
  set bs=2
 +set history=100
