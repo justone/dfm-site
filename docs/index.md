@@ -54,4 +54,5 @@ $ dfm umi
 
 # More information
 
-[Full documentation](documentation.md)
+* [Full documentation](documentation.md)
+* [Cookbook](cookbook.md)
