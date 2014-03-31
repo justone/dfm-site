@@ -52,8 +52,3 @@ $ dfm umi
 ... changes merged in and install run again
 ```
 
-# More information
-
-* [Full documentation](documentation.md)
-* [Cookbook](cookbook.md)
-* [FAQ](faq.md)

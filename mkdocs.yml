@@ -1,3 +1,13 @@
 site_name: Dotfiles Manager
+site_url: http://dfm.endot.org/
+site_description: Project documentation for dfm.
+
 theme: mkdocs
 copyright: Copyright &copy; 2014, <a href="https://twitter.com/ndj">Nate Jones</a>.
+repo_url: https://github.com/justone/dfm-site
+
+pages:
+- ['index.md', 'Home']
+- ['documentation.md', 'Documentation', 'Full Documentation']
+- ['cookbook.md', 'Documentation', 'Cookbook']
+- ['faq.md', 'Documentation', 'FAQ']
