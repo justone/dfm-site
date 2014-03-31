@@ -6,7 +6,7 @@ dfm is a small utility that manages dotfiles.  It:
 - easys fetching and merging changes that were pushed from other machines
 - simplifies working with your dotfiles repository, no matter where you are
 
-# Quick start
+## Quick start
 
 First, fork [this repo](http://github.com/justone/dotfiles).
 
