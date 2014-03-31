@@ -56,3 +56,4 @@ $ dfm umi
 
 * [Full documentation](documentation.md)
 * [Cookbook](cookbook.md)
+* [FAQ](faq.md)
