@@ -1,6 +1,6 @@
-page_title: Full Documentation
+# Full Documentation
 
-# Tour of files
+## Tour of files
 
 Besides the `README.md` and `.gitignore`, there are four files/directories in the base branch.
 
@@ -9,17 +9,17 @@ Besides the `README.md` and `.gitignore`, there are four files/directories in th
 * `.bashrc.load` - This file is the bootstrap file for loading any shell customizations.  The default only makes sure `$HOME/bin` is in the path so that `dfm` can be run easily.  This file is loaded because `dfm` puts the following line at the end of `.bashrc` on install: `. $HOME/.bashrc.load`
 * `t` - Tests for the `dfm` utility.
 
-# The 'dfm' utility
+## The 'dfm' utility
 
 `dfm` stands for **D**ot **F**ile **M**anager.  The name was chosen because the best commands (like `svn` or `git`) are only three characters.
 
 Running `dfm` is like running `git`.  There are subcommands, like `install` and `updates` that perform different functions.  Each subcommand has it's own set of options and there are also options that apply to all subcommands.
 
-# Installing dotfiles
+## Installing dotfiles
 
 The main reason for `dfm` to exist is to install dotfiles.  This is done with the `install` subcommand.  Running `dfm install` will go through all the files and directories in the repository and install them in `$HOME` using symlinks.
 
-## Skipping
+### Skipping
 
 You can control what files are skipped by adding `.dfminstall` files in your repository.  For instance, the [[default .dfminstall|http://github.com/justone/dotfiles/blob/master/.dfminstall]] file has the following contents:
 
@@ -30,7 +30,7 @@ t skip
 ```
 Meaning that `README.md` and `CHANGELONG.md` and `t` will be skipped when running `dfm install`.
 
-## Recursing
+### Recursing
 
 You can make `dfm install` recurse into a given directory by adding its name to the `.dfminstall` file.  For instance, the [[this .dfminstall file|http://github.com/justone/dotfiles/blob/personal/.dfminstall]] has the following contents:
 
@@ -63,7 +63,7 @@ lrwxr-xr-x   1 nate  staff     33 Sep 14 11:25 config -> ../.dotfiles/.ssh/confi
 
 Very handy for managing files inside directories that are extra volatile or that you just want to leave alone.
 
-## Executing scripts
+### Executing scripts
 
 You can make `dfm install` execute a script by adding its name to the `.dfminstall` file and appending the 'exec' option.  For instance, given the following `.dfminstall` file:
 
@@ -82,7 +82,7 @@ setup.sh exec
 setup.sh skip
 ```
 
-## Fixing permissions
+### Fixing permissions
 
 You can make `dfm install` change the permissions on a file by adding its name to the `.dfminstall` file and appending the 'chmod' option and a mode.  For instance, given the following `.dfminstall` file:
 
@@ -92,7 +92,7 @@ You can make `dfm install` change the permissions on a file by adding its name t
 
 When `dfm install` is run, the `.ssh/config` file will have its mode set to `0600`.
 
-# Importing files
+## Importing files
 
 Adding new dotfiles to your repository can be a little tricky.  Here are the commands that need to be run:
 
@@ -115,7 +115,7 @@ INFO: Committing with message 'importing .vimrc'
  create mode 100644 .vimrc
 ```
 
-# All subcommands
+## All subcommands
 
 Here are the subcommands that are currently defined:
 

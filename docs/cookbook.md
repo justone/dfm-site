@@ -1,3 +1,5 @@
+# Cookbook
+
 Here are some sample `dfm` sessions that accomplish certain tasks.
 
 ## Changing a file

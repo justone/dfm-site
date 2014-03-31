@@ -1,4 +1,6 @@
-# Why `.bashrc.load` instead of `.bashrc`?
+# Frequently Asked Questions
+
+## Why `.bashrc.load` instead of `.bashrc`?
 
 Each OS or distribution generally has its own way of populating a default `.bashrc` in each new user's home directory.  This file works with the rest of the OS to load in special things like bash completion scripts or aliases.  The idea behind using `.bashrc.load` is that dotfiles should add new things to a system rather than overwriting built-in funcitonality.
 
