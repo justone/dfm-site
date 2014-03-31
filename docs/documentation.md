@@ -21,7 +21,7 @@ The main reason for `dfm` to exist is to install dotfiles.  This is done with th
 
 ### Skipping
 
-You can control what files are skipped by adding `.dfminstall` files in your repository.  For instance, the [[default .dfminstall|http://github.com/justone/dotfiles/blob/master/.dfminstall]] file has the following contents:
+You can control what files are skipped by adding `.dfminstall` files in your repository.  For instance, the [default .dfminstall](http://github.com/justone/dotfiles/blob/master/.dfminstall) file has the following contents:
 
 ```sh
 README.md skip
@@ -32,7 +32,7 @@ Meaning that `README.md` and `CHANGELONG.md` and `t` will be skipped when runnin
 
 ### Recursing
 
-You can make `dfm install` recurse into a given directory by adding its name to the `.dfminstall` file.  For instance, the [[this .dfminstall file|http://github.com/justone/dotfiles/blob/personal/.dfminstall]] has the following contents:
+You can make `dfm install` recurse into a given directory by adding its name to the `.dfminstall` file.  For instance, the [this .dfminstall file](http://github.com/justone/dotfiles/blob/personal/.dfminstall) has the following contents:
 
 ```sh
 .ssh recurse
