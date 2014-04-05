@@ -11,3 +11,4 @@ pages:
 - ['documentation.md', 'Documentation', 'Full Documentation']
 - ['cookbook.md', 'Documentation', 'Cookbook']
 - ['faq.md', 'Documentation', 'FAQ']
+- ['developing.md', 'Documentation', 'Development']
