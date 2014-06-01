@@ -2,7 +2,7 @@ site_name: Dotfiles Manager
 site_url: http://dfm.endot.org/
 site_description: Project documentation for dfm.
 
-theme: mkdocs
+theme: cosmo
 copyright: Copyright &copy; 2014, <a href="https://twitter.com/ndj">Nate Jones</a>.
 repo_url: https://github.com/justone/dfm-site
 
