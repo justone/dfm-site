@@ -121,6 +121,7 @@ Here are the subcommands that are currently defined:
 
 * `install` - this installs everything in the repo into `$HOME` using symlinks
 * `import` - this adds a file (or directory) to the repo, symlinks it, and then does a commit.
+* `profile` - this manages install profiles.
 * `uninstall` - the reverse of `install`, this removes symlinks in `$HOME` that point into the dotfiles repository
 * `updates` - this fetches any new changes from the `origin` remote
 * `mergeandinstall` or `mi` - this merges any new changes and re-runs `dfm install`
